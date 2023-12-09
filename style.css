@@ -55,3 +55,10 @@
     cursor: pointer;
 
 }
+#result{
+    font-size: 25px;
+}
+#result span{
+    color: yellow;
+    font-size: 26px;
+}
