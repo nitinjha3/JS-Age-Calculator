@@ -3,19 +3,18 @@
    padding: 0;
    box-sizing: border-box;
 }
-body{
-    width: 100%;
+.container{
+    /* width: 100%; */
     min-height: 100vh;
     background:linear-gradient(135deg,#4203a9,#a0c4d6);
     color: #fff;
-    /* padding: 10px; */
+    padding-left: 8%;
+    padding-top: 100px;
 
 }
 .calculator{
     width:100%;
     max-width: 600px;
-    margin-top: 10%;
-    margin-left: 10%;
 }
 .calculator h1{
     font-size: 56px;
@@ -27,7 +26,7 @@ body{
     color: rgb(185, 249, 58);
 }
 .input-box{
-    /* width: 100%; */
+    width: 95%;
     padding: 5%;
     margin: 6% 0px;
     background: rgba(255, 255, 255, 0.4);
