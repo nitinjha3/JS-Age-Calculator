@@ -1,14 +1,14 @@
 *{
    margin: 0;
    padding: 0;
-   /* box-sizing: border-box; */
+   box-sizing: border-box;
 }
-.container{
+body{
     width: 100%;
     min-height: 100vh;
-    background:linear-gradient(45deg,#4203a9,#a0c4d6);
+    background:linear-gradient(135deg,#4203a9,#a0c4d6);
     color: #fff;
-    padding: 10px;
+    /* padding: 10px; */
 
 }
 .calculator{
@@ -33,6 +33,7 @@
     background: rgba(255, 255, 255, 0.4);
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 10px;
 }
 #date{
